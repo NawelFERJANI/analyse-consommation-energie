@@ -1,6 +1,6 @@
-📊 Analyse de la consommation d’énergie en France
+# 📊 Analyse de la consommation d’énergie en France
 
-🎯 Objectif du projet
+## 🎯 Objectif du projet
 
 Ce projet analyse la consommation d’énergie par région, statut énergétique et année à partir d’une base de données Snowflake.
 L’objectif est de produire des indicateurs et des visualisations permettant d’identifier les tendances de consommation.
