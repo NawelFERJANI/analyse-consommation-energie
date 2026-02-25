@@ -1,4 +1,5 @@
 📊 Analyse de la consommation d’énergie en France
+
 🎯 Objectif du projet
 
 Ce projet analyse la consommation d’énergie par région, statut énergétique et année à partir d’une base de données Snowflake.
@@ -21,6 +22,7 @@ L’objectif est de produire des indicateurs et des visualisations permettant d�
 02_sql_queries         → Requêtes SQL utilisées dans le projet
 03_powerbi_dashboard   → Dashboard Power BI (.pbix) + captures
 README.md              → Présentation du projet
+
 🧮 Analyse SQL (aperçu)
 
 Les requêtes complètes se trouvent dans :
@@ -41,6 +43,7 @@ SELECT statut, SUM(consommation) AS consommation_statut
 FROM consommation
 GROUP BY statut
 ORDER BY consommation_statut DESC;
+
 📊 Dashboard Power BI
 
 Le dashboard final comporte :
